@@ -28,7 +28,7 @@ signInButton.addEventListener('click', function () {
       });
 
       playgroundRef.on('value', function (snap) {
-        header.innerTest = snap.val();
+        playground.value = snap.val();
       });
     }
   });
